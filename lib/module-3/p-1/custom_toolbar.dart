@@ -36,9 +36,9 @@ class _CustomToolbarScreenState extends State<CustomToolbarScreen> {
             itemBuilder: (BuildContext context) {
               return ['setting', 'Account', 'logout']
                   .map((String item) => PopupMenuItem<String>(
-                value: item,
-                child: Text(item),
-              ))
+                        value: item,
+                        child: Text(item),
+                      ))
                   .toList();
             },
           ),
